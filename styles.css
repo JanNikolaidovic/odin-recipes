@@ -1,0 +1,21 @@
+h1 {
+    color : white;
+    background-color: red;
+    font-family: 'Lucida Console';
+    font-size: 32px ;
+    text-align: center;
+    font-weight: bold; /* a value of 700 would be the bold equivalent */
+}
+
+/* ul {
+    text-align:center;
+    list-style-position:justify;
+} */
+
+.parent {
+    text-align: center;
+  }
+  .parent > ul {
+    display: inline-block;
+  }
+
