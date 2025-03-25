@@ -1,22 +1,32 @@
+body {
+    font-family: 'Lucida Console';
+}
+
+#main-page-intro {
+    font-weight: bold;
+    text-align: center;
+}
+
 h1 {
     color : white;
     background-color: red;
-    font-family: 'Lucida Console';
     font-size: 32px ;
     text-align: center;
     font-weight: bold; /* a value of 700 would be the bold equivalent */
 }
 
-/* ul {
-    text-align:center;
-    list-style-position:justify;
-} */
+a {
+    font-family: 'Lucida Console';
+    color: #000;
+}
+
 
 .parent {
     text-align: center;
   }
   .parent > ul {
     display: inline-block;
+
   }
 
 
